@@ -17,7 +17,7 @@ nav {
 
 header{
     background-color: #ffff;
-    border-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .button {
     background-color: #42517A;
@@ -35,6 +35,9 @@ header{
 a{
     text-decoration: none;
 }
+.item {
+    width: 130px;
+}
 
 li {
     list-style-type: none;
@@ -43,5 +46,21 @@ li {
     color: rgb(78, 95, 143);
 }
 
+.container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #F2F2F2;
+    height: 740px;
+}
+
 .login {
+    width: 380px;
+    height: 400px;
+    background-color: #ffff;
+    margin: 0 auto;
 }

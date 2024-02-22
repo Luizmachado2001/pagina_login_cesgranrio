@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <img src="img/logo.png" alt="" class="img">
+            <img src="img/logo.png" alt="" class="logo img">
             <ul class="lista">
                 <li><a href="#">AVALIAÇÕES E CONCURSOS</a></li>
                 <li><a href="#">CONTATO</a></li>
@@ -28,21 +27,27 @@
                         <p>Informe suas credenciais para se conectar.</p>
 
                         <div class="div-input">
-                            <input type="email" name="email_usuario" name="email" class="input"/><br />
-                            <input type="password" name="senha" name="email" class="input" /><br />
+                            <input type="email" name="email_usuario" name="email" class="input" placeholder="Digite seu e-mail ou CPF"/><br />
+                            <input type="password" name="senha" name="email" class="input" placeholder=" Digite sua senha"  /><br />
                         </div>
-                        <p>Esqueci minha senha</p>
+                        <div class="div-psenha">                       
+                            <p>Esqueci minha senha</p>
+                        </div>
+                        <div class="div-buttons">
+                            <button type="button" class="button-2">ENTRAR</button>
+                            <button type="button" class="button-3">CADASTRA-SE</button>
+                        </div>
                     </div>
                 </form>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="p">
         <div>
             <img src="img/logo-rodape-novo.png" alt="" class="mx-1">
         </div>
         <div>
-            <span>&nbsp;1.0.20240220.6</span></span>
+            <span>&nbsp;1.0.20240220.6</span>
         </div>
     </footer>
 </body>
